@@ -1,3 +1,4 @@
+/* Common styles  */
 @import url("https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Monoton&display=swap");
 
 * {
@@ -15,3 +16,4 @@
 html {
   font-size: 62.5%; /* now 1rem == 10px */
 }
+/* End of Common styles  */
