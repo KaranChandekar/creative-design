@@ -599,13 +599,12 @@ body {
 
   .section-1-heading {
     top: 65vw;
-    width: 40rem;
-    font-size: 3.5rem;
+    width: 42rem;
+    font-size: 3.8rem;
   }
 
-  .logo {
-    top: 65%;
-    font-size: 15rem;
+  .logo i {
+    font-size: 10rem;
   }
 
   .section-heading {
