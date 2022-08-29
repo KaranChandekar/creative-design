@@ -17,6 +17,11 @@ html {
   font-size: 62.5%; /* now 1rem == 10px */
 }
 
+.container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   overflow-x: hidden;
 }
