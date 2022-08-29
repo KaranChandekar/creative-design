@@ -52,7 +52,7 @@ body {
   background-color: rgba(50, 231, 255, 0.8);
   position: absolute;
   top: -125vw;
-  left: calc(25% - 75rem);
+  left: calc(50% - 75vw);
   border-radius: 45%;
   animation: rotate 30s infinite;
 }
@@ -465,3 +465,187 @@ body {
 .scroll-up-btn:hover {
   background-color: #32e7ff;
 }
+
+/* Responsive  */
+@media (max-width: 1400px) {
+  .floating-bg {
+    top: -123vw;
+  }
+
+  .section-1-heading {
+    font-size: 5rem;
+    position: 25vw;
+    width: 60rem;
+  }
+
+  .navbar-link {
+    font-size: 1.5rem;
+    width: 0.8rem;
+  }
+
+  .logo {
+    top: 75%;
+  }
+
+  .section-heading {
+    font-size: 7rem;
+    margin-bottom: 10rem;
+  }
+
+  .section-2 {
+    height: auto;
+  }
+
+  .customer-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .customer {
+    margin: 5rem 10rem;
+  }
+
+  .section-3 {
+    height: auto;
+  }
+
+  .team-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .team-member {
+    margin: 5rem 10rem;
+  }
+
+  .form-container {
+    height: 60%;
+  }
+
+  .form-img {
+    display: none;
+  }
+
+  .contact-form {
+    transform: translateY(0);
+  }
+
+  .contact-form:hover {
+    transform: translateY(-1rem);
+  }
+
+  .copyright {
+    margin: 5rem 0 4rem 0;
+  }
+}
+
+@media (max-width: 1150px) {
+  .floating-bg {
+    top: -115vw;
+  }
+
+  .section-1-heading {
+    font-size: 5rem;
+    top: 25vw;
+  }
+
+  .logo i {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .floating-bg {
+    top: -105vw;
+  }
+
+  .section-1-heading {
+    top: 30vw;
+  }
+
+  .navbar {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 750px) {
+  html {
+    font-size: 50%;
+  }
+
+  .floating-bg {
+    top: -90vw;
+  }
+
+  .section-1-heading {
+    top: 45vw;
+  }
+
+  .navbar-link {
+    font-size: 2rem;
+  }
+
+  .section-heading {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 45%;
+  }
+
+  .floating-bg {
+    top: -65vw;
+  }
+
+  .section-1-heading {
+    top: 65vw;
+    width: 40rem;
+    font-size: 3.5rem;
+  }
+
+  .logo {
+    top: 65%;
+    font-size: 15rem;
+  }
+
+  .section-heading {
+    font-size: 6rem;
+  }
+
+  .customer {
+    margin: 5rem 0;
+  }
+
+  .team-member {
+    margin: 5rem 0;
+  }
+
+  .section-4 {
+    height: auto;
+  }
+
+  .form-container {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .contact-form {
+    box-shadow: 1rem 1rem 2rem #aaa;
+  }
+
+  .contact-form:hover {
+    box-shadow: 2rem 2rem 3rem #aaa;
+  }
+
+  .copyright {
+    font-size: 1.8rem;
+    margin: 5rem;
+    text-align: center;
+  }
+
+  .scroll-up-btn {
+    bottom: 2rem;
+    right: 2rem;
+  }
+}
+/* End of Responsive  */
