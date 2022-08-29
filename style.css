@@ -436,4 +436,11 @@ body {
 .contact-form input[type="submit"]:hover {
   background-color: #32e7ff;
 }
+
+.copyright {
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+  color: #444;
+  margin-top: 5rem;
+}
 /* End of Section 4 */
