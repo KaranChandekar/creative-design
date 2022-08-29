@@ -603,6 +603,10 @@ body {
     font-size: 3.8rem;
   }
 
+  .logo {
+    top: 65%;
+  }
+
   .logo i {
     font-size: 10rem;
   }
